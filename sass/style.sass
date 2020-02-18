@@ -1,0 +1,98 @@
+@import colors
+
+
+// Global
+
+body
+  background-color: $color-bg
+  color: $color-fg
+  margin: 0
+  font-family: 'Fira Code', monospace
+  font-weight: 400
+
+.center
+  text-align: center
+
+a
+  text-decoration: none
+  font-weight: 700
+  color: $color-accent-off
+  &:hover, &:focus, &:active
+    color: $color-accent
+
+h1, h2, h3
+  margin: 1em .5em 0 0
+
+h1
+  text-transform: uppercase
+  text-align: center
+
+h2, h3
+  display: inline-block
+
+blockquote
+  border-left: 2px solid $color-accent-off
+  margin-left: 1em
+  padding-left: 1em
+
+
+// Header
+
+$header-height: 48px
+
+#header
+  position: fixed
+  width: 100%
+  height: $header-height
+  overflow: auto
+  background-color: $color-bg
+  border-bottom: 1px solid rgba(0, 0, 0, .2)
+  display: flex
+  align-items: center
+
+  nav
+    width: 90%
+    margin: auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+    font-size: 1.2em
+
+  a
+    margin: 0 .5em
+    color: $color-fg
+    &.selected
+      color: $color-accent-off
+    &:hover, &:focus, &:active
+      color: $color-accent
+
+#home
+  font-size: 1.25em
+
+#profiles
+  .logo-link
+    &:hover, &:focus, &:active
+      .logo-svg
+        fill: $color-accent
+    svg
+      width: 1.2em
+    .logo-svg
+      fill: $color-fg
+
+
+// Content
+
+#content
+  width: 80%
+  margin: auto
+  padding-top: $header-height
+
+#personal-intro
+  min-height: 90vh
+  display: flex
+  align-items: center
+  justify-content: center
+
+#personal-photo
+  max-width: 100%
+  border-radius: 50%
