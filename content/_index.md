@@ -49,7 +49,7 @@ Features:
 >
 > 1st place at both *Formula Student Germany* and *Formula Student East (Hungary)*
 
-I was a member of AMZ Driverless, ETH's Formula Student Driverless team, for the 2018-2019 season. My primary role was as a member of the Perception team which was responsible for processing and analyzing all incoming information from the 2 cameras and 2 LiDARs on the car. My tasks involved the calibration of the various sensors in both the spatial and temporal domain to allow for fusion of the sensors data for combined processing.
+I was a member of AMZ Driverless, ETH's Formula Student Driverless team, for the 2018-2019 season. Being part of the Perception team, my primary role was to process and analyze all incoming information from the 2 cameras and 2 LiDARs on the car. My tasks involved the calibration of the various sensors in both the spatial and temporal domain to allow for fusion of the sensors data for combined processing.
 
 My secondary role was the programming of various AVR32 microcontrollers on the car for interfacing with various components such as the Inertial Navigation System (INS), Low Voltage controller (LV), accumulators (AKKU), dashboard (DB), and the CAN interface tying them all together.
 
@@ -74,7 +74,7 @@ Under the Microcontroller subteam, I worked with the Raspberry Pi to establish a
 >
 > Ranked 6th in the competition from 40 universities
 
-I was a member of the Georgia Tech HyTech Racing team where we design a single-seat Electric Vehicle to compete against teams from up to 40 other universities at the Formula Hybrid competition and FSAE Electric.
+I was a member of the Georgia Tech HyTech Racing team where we designed a single-seat Electric Vehicle to compete against teams from up to 40 other universities at the Formula Hybrid competition and FSAE Electric.
 
 I was responsible for linking the CANBUS network of the car and programming the various microcontrollers for functions ranging from pedal/brake control to controlling and monitoring the various EV units such as the Motor Controller, Accumulator, and Low Voltage Boards. I also installed a steering wheel-mounted smartphone that displayed gyroscope stabilized car diagnostics data such as speed, temperatures, charge, etc. via a Bluetooth connection to the car.
 
@@ -158,7 +158,7 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 * Advanced Machine Learning
 
 ## [Georgia Institute of Technology](https://www.gatech.edu/about)
-### ([Computer Engineering BSc.](https://www.ece.gatech.edu/computer-engineering-degree))
+### ([Computer Engineering BSc.](https://www.ece.gatech.edu/computer-engineering-degree)), Atlanta
 > **Minor**: Computer Science  
 > **GPA**: 3.76
 >
@@ -228,7 +228,7 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 >
 > ***August 2010 - May 2014***
 >
-> Received Book Award for Mathematics (given to one student in the whole High School as chosen by a committee of HS Math Teachers)
+> Received Book Award for Mathematics (given to one student in the whole High School as chosen by a committee from the HS Math Department)
 
 ---
 
@@ -238,6 +238,8 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 > **Technologies**: Android (Device OEM APIs), Stash, JIRA, Bamboo, Confluence, Agile
 >
 > ***May 2017 - August 2017***
+>
+> ***Atlanta***
 
 I interned at AirWatch on the Android Agent App Development team. My primary project involved refactoring and restructuring existing code with regards to device application policy control/management/restricition. I learned new team-based technologies such as Stash for codebases, JIRA for issue tracking, Bamboo for build management, and Confluence for documentation.
 
@@ -245,6 +247,8 @@ I interned at AirWatch on the Android Agent App Development team. My primary pro
 > **Technologies**: Java (1.8, JavaFX, JUnit4)
 >
 > ***January 2016 - May 2017***
+>
+> ***Georgia Tech, Atlanta***
 
 I was a TA for the two CS courses. My responsibilities included writing homework assignments, preparing for and conduction weekly recitations, grading homeworks/tests, and holding office hours.
 
@@ -252,6 +256,8 @@ I was a TA for the two CS courses. My responsibilities included writing homework
 > **Technologies**: C/C++ (MIPS ISA)
 >
 > ***January 2016 - May 2017***
+>
+> ***Georgia Tech, Atlanta***
 
 Tutored multiple ECE courses and aided students with lab assignments and grading. Course materials included:
 * MIPS ISA
