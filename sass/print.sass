@@ -11,8 +11,8 @@ body
 .center
   text-align: left
 
-//h1, h2, h3
-//  margin: 1em .5em 0 0
+h1, h2, h3
+  margin: 1em .5em 0 0
 
 h1
   text-align: left
@@ -27,7 +27,32 @@ blockquote, p, ul
 // Header
 
 #header
+  width: 30%
+  height: auto
+  position: relative
+  right: 0px
+  float: right
+  margin: 1em
+  align-items: right
+
+  nav
+    margin: 0
+    padding: 0
+    
+
+#home, #sections
   display: none
+
+#profiles
+  .logo-link
+    display: block
+
+    svg
+      width: 1em
+
+    &::after
+      content: attr(alt)
+      font-size: .6em
 
 
 // Content
@@ -38,10 +63,13 @@ blockquote, p, ul
   padding: 0
 
 #personal-intro
-  display: block
+  display: inline
 
 #personal-photo
   width: 120px
+
+h3[id^='src']
+  display: none
 
 @page
   size: letter

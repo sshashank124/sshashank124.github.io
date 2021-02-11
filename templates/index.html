@@ -25,16 +25,20 @@
         </div>
 
         <div id="profiles">
-          <a class="logo-link" href="mailto:{{ config.extra.username }}@gmail.com">
+          <a class="logo-link" href="mailto:{{ config.extra.username }}@gmail.com"
+                               alt="{{ config.extra.username }}@gmail.com">
             {% include "logos/email.html" %}
           </a>
-          <a class="logo-link" href="https://stackoverflow.com/users/3337070/{{ config.extra.username }}">
+          <a class="logo-link" href="https://stackoverflow.com/users/3337070/{{ config.extra.username }}"
+                               alt="{{ config.extra.username }}">
             {% include "logos/stackoverflow.html" %}
           </a>
-          <a class="logo-link" href="https://github.com/{{ config.extra.username }}">
+          <a class="logo-link" href="https://github.com/{{ config.extra.username }}"
+                               alt="{{ config.extra.username }}">
             {% include "logos/github.html" %}
           </a>
-          <a class="logo-link" href="tel:+41764795073">
+          <a class="logo-link" href="tel:+41764795073"
+                               alt="+41 76 479 50 73">
             {% include "logos/phone.html" %}
           </a>
         </div>
