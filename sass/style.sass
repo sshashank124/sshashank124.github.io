@@ -21,7 +21,7 @@ a
     color: $color-accent
 
 h1, h2, h3
-  margin: 1em .5em 0 0
+  margin: 1em .2em
 
 h1
   text-transform: uppercase
@@ -45,7 +45,7 @@ $header-height: 48px
   width: 100%
   height: $header-height
   overflow: auto
-  background-color: $color-bg
+  background-color: $color-gray1
   border-bottom: 1px solid rgba(0, 0, 0, .2)
   display: flex
   align-items: center
@@ -83,12 +83,11 @@ $header-height: 48px
 // Content
 
 #content
-  width: 80%
   margin: auto
   padding-top: $header-height
 
 #personal-intro
-  min-height: 90vh
+  min-height: 100vh
   display: flex
   align-items: center
   justify-content: center
@@ -96,3 +95,19 @@ $header-height: 48px
 #personal-photo
   max-width: 100%
   border-radius: 50%
+
+.section
+  padding: 2em 8%
+
+.subsection
+  padding: 1em 2%
+
+.bg1
+  background-color: $color-bg
+
+.bg2
+  background-color: $color-bg2
+
+details
+  summary:hover
+    background-color: $color-gray1
