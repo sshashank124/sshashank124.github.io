@@ -16,9 +16,13 @@
 </div>
 </div></div>
 
-<div class="section bg2">
+<nav>
+  {{ section(name="projects", active=true) }}
+  {{ section(name="education") }}
+  {{ section(name="work") }}
+</nav>
 
-# Projects
+<div id="projects" class="section">
 
 <div class="subsection">
 
@@ -166,9 +170,7 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 
 </div>
 
-<div class="section">
-
-# Education
+<div id="education" class="section">
 
 <div class="subsection">
 <details>
@@ -293,9 +295,7 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 </div>
 </div>
 
-<div class="section bg2">
-
-# Work
+<div id="work" class="section">
 
 <div class="subsection">
 

@@ -1,5 +1,3 @@
-{%import "macros.html" as macros %}
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,12 +15,6 @@
     <div id="header">
       <nav>
         <a id="home" href="#">{{ config.title | upper }}</a>
-
-        <div id="sections">
-          {{ macros::page_link(name="projects") }}
-          {{ macros::page_link(name="education") }}
-          {{ macros::page_link(name="work") }}
-        </div>
 
         <div id="profiles">
           <a class="logo-link" href="mailto:{{ config.extra.username }}@gmail.com"

@@ -35,6 +35,13 @@ blockquote
   margin-left: 1em
   padding-left: 1em
 
+nav
+  width: 90%
+  margin: auto
+  display: flex
+  align-items: center
+  justify-content: space-between
+  font-size: 1.2em
 
 // Header
 
@@ -50,32 +57,20 @@ $header-height: 48px
   display: flex
   align-items: center
 
-  nav
-    width: 90%
-    margin: auto
-    display: flex
-    align-items: center
-    justify-content: space-between
-    font-size: 1.2em
-
-  a
-    margin: 0 .5em
-    color: $color-fg
-    &.selected
-      color: $color-accent-off
-    &:hover, &:focus, &:active
-      color: $color-accent
-
 #home
   font-size: 1.25em
+  color: $color-fg
 
 #profiles
   .logo-link
     &:hover, &:focus, &:active
       .logo-svg
         fill: $color-accent
+
     svg
       width: 1.2em
+      margin: 0 .5em
+
     .logo-svg
       fill: $color-fg
 
@@ -98,6 +93,7 @@ $header-height: 48px
 
 .section
   padding: 2em 8%
+  background-color: $color-bg2
 
 .subsection
   padding: 1em 2%
@@ -107,6 +103,24 @@ $header-height: 48px
 
 .bg2
   background-color: $color-bg2
+
+button
+  font-size: 100%
+  font-family: inherit
+  border: 0
+  padding: 0 2em
+  background-color: inherit
+
+  color: $color-fg
+  &:hover, &:focus
+    color: $color-accent
+
+.selected-section-button
+  background-color: $color-bg2
+  color: $color-accent-off
+
+#education, #work
+  display: none
 
 details
   summary:hover
