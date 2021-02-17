@@ -10,28 +10,24 @@ body
   font-family: 'Fira Code', monospace
   font-weight: 400
 
-.center
-  text-align: center
-
 a
   text-decoration: none
   font-weight: 700
-  color: $color-accent-off
+  color: $color-accent
   &:hover, &:focus, &:active
-    color: $color-accent
+    color: $color-accent-dark
 
 h1, h2, h3
   margin: 1em .2em
 
 h1
   text-transform: uppercase
-  text-align: center
 
 h2, h3
   display: inline-block
 
 blockquote
-  border-left: 2px solid $color-accent-off
+  border-left: 2px solid $color-accent
   margin-left: 1em
   padding-left: 1em
 
@@ -40,6 +36,7 @@ nav
   margin: auto
   display: flex
   font-size: 1.2em
+
 
 // Header
 
@@ -50,7 +47,7 @@ $header-height: 48px
   width: 100%
   height: $header-height
   overflow: auto
-  background-color: $color-gray1
+  background-color: $color-bg-dark
   border-bottom: 1px solid rgba(0, 0, 0, .2)
   display: flex
 
@@ -65,7 +62,7 @@ $header-height: 48px
   .logo-link
     &:hover, &:focus, &:active
       .logo-svg
-        fill: $color-accent
+        fill: $color-accent-dark
 
     svg
       width: 1.2em
@@ -86,23 +83,11 @@ $header-height: 48px
   display: flex
   align-items: center
   justify-content: center
+  text-align: center
 
 #personal-photo
   max-width: 100%
   border-radius: 50%
-
-.section
-  padding: 2em 8%
-  background-color: $color-bg2
-
-.subsection
-  padding: 1em 2%
-
-.bg1
-  background-color: $color-bg
-
-.bg2
-  background-color: $color-bg2
 
 button
   font-size: 100%
@@ -110,18 +95,30 @@ button
   border: 0
   padding: 0 2em
   background-color: inherit
-
   color: $color-fg
+
   &:hover, &:focus
+    color: $color-accent-dark
+
+  &.selected
+    background-color: $color-bg-light
     color: $color-accent
 
-.selected-section-button
-  background-color: $color-bg2
-  color: $color-accent-off
+.section
+  margin: 0
+  padding: 2em 8%
+  background-color: $color-bg-light
+  list-style-type: none
+
+  .subsection
+    padding: 1em 2%
+
+    &:nth-child(even)
+      background-color: $color-bg
 
 #education, #work
   display: none
 
 details
   summary:hover
-    background-color: $color-gray1
+    background-color: $color-bg-dark

@@ -1,7 +1,7 @@
 +++
 +++
 
-<div id="personal-intro" class="center"><div>
+<div id="personal-intro"><div>
 <img id="personal-photo" src="images/me.jpg">
 
 # Shashank Singh
@@ -22,9 +22,9 @@
   {{ section(name="work") }}
 </nav>
 
-<div id="projects" class="section">
+<ul id="projects" class="section">
 
-<div class="subsection">
+<li class="subsection">
 
 ## [Fission - Physically-Based Ray-Tracing Renderer](https://github.com/sshashank124/fission/)
 > **Technologies**: Rust (GPU Compute, (De)Serialization, Functional Programming, SIMD, Threadpools, Parsers, Simulation), OpenEXR
@@ -37,9 +37,7 @@ The library contains an efficient flattened implementation of a BVH tree (to be 
 
 The entire project is structured to be modular and the code is written in a highly functional manner for easier access. Despite this, the renderer is very performant and compiles down to optimized code for all types of geometric computations.
 
-</div>
-
-<div class="subsection bg1">
+</li><li class="subsection">
 
 ## [AMZ Driverless Racing](http://driverless.amzracing.ch/en/home)
 > **Technologies**: C++ (ROS, Tensorflow, PCL, OpenCV), Python (Tensorflow, OpenCV), C (Atmel AVR32)
@@ -52,9 +50,7 @@ I was a member of AMZ Driverless, ETH's Formula Student Driverless team, for the
 
 My secondary role was the programming of various AVR32 microcontrollers on the car for interfacing with various components such as the Inertial Navigation System (INS), Low Voltage controller (LV), accumulators (AKKU), dashboard (DB), and the CAN interface tying them all together.
 
-</div>
-
-<div class="subsection">
+</li><li class="subsection">
 
 ## [EnerCage Research](https://industry.gatech.edu/technology/enercage-scalable-array-wireless-sensor-modules)
 > **Technologies**: Python (OpenCV2, Tensorflow/Keras, numpy/scikit, pybluez), Java (JavaFX), C/C++ (libbluetooth, pthread, socket), Raspberry Pi, Microsoft Kinect 1 & 2
@@ -69,9 +65,7 @@ Under the Image Processing subteam, I worked on training Deep Learning Convoluti
 
 Under the Microcontroller subteam, I worked with the Raspberry Pi to establish a hub between a rat-mounted microchip and a researcher's computer using Bluetooth and TCP connections respectively. I also helped design the GUI for interfacing with the Raspberry Pi Hub that would be used by the researchers on their desktops as well as implement the functionality to connect and log data from multiple hubs simultaneously.
 
-</div>
-
-<div class="subsection bg1">
+</li><li class="subsection">
 
 ## [HyTech Racing](https://hytechracing.gatech.edu/)
 ### [[src]](https://github.com/hytech-racing/code-2016)
@@ -85,9 +79,7 @@ I was a member of the Georgia Tech HyTech Racing team where we designed a single
 
 I was responsible for linking the CANBUS network of the car and programming the various microcontrollers for functions ranging from pedal/brake control to controlling and monitoring the various EV units such as the Motor Controller, Accumulator, and Low Voltage Boards. I also installed a steering wheel-mounted smartphone that displayed gyroscope stabilized car diagnostics data such as speed, temperatures, charge, etc. via a Bluetooth connection to the car.
 
-</div>
-
-<div class="subsection">
+</li><li class="subsection">
 
 ## [Energy Jackets](https://sustain.gatech.edu/blog/turn-down-watt-greenovation-competition-winning-idea)
 > **Technologies**: Python (Django, PostgreSQL), HTML/CSS, Heroku, Raspberry Pi, Analog Design (200A CT Sensors, MCP 3008)
@@ -97,9 +89,7 @@ I was responsible for linking the CANBUS network of the car and programming the 
 I served as a member of an independent, multi-disciplinary team of students who hosted our first energy savings competition in one of the on-campus freshmen housing buildings. Our project won funding from the Greenovation 2017 Fund at Georgia Tech. We designed our own monitoring system to collect live energy usage data from each of the floors in the building and log it to a remote database. We then provided statistics updated daily on the energy usage and comparative reduction for each of the floors through the competition website with the intent of
 fostering constructive competition and to raise awareness with regards to energy conservation.
 
-</div>
-
-<div class="subsection bg1">
+</li><li class="subsection">
 
 ## [Cube Companion](https://play.google.com/store/apps/details?id=com.qbix.cubecompanion)
 ### [[src]](https://github.com/sshashank124/cube-companion)
@@ -115,9 +105,7 @@ Created and published an elegant and resourceful Rubik's Cube app for Android. T
 * Multiple puzzles support
 * Customizable preferences
 
-</div>
-
-<div class="subsection">
+</li><li class="subsection">
 
 ## [Block Scheduler](http://block-scheduler.appspot.com/)
 ### [[src]](https://github.com/sshashank124/block-scheduler)
@@ -127,11 +115,11 @@ Created and published an elegant and resourceful Rubik's Cube app for Android. T
 
 Created a web app aimed at faculty and students at my highschool (ISKL) to allow for easy scheduling/unscheduling of recurring events based on our school's custom calendar which follows an 8-day cycle. Has been used by over 50 different faculty members to schedule 26,500+ events.
 
-</div>
+</li>
 
 # Hackathons / Competitions
 
-<div class="subsection bg1">
+<li class="subsection">
 
 ## Google Games
 > **Technologies**: Python
@@ -142,9 +130,7 @@ Created a web app aimed at faculty and students at my highschool (ISKL) to allow
 
 My team of five and I participated in the Google Games Competition in Atlanta which involved various programming, analytical, and puzzle solving challenges.
 
-</div>
-
-<div class="subsection">
+</li><li class="subsection">
 
 ## Freshmen Hackathon
 > **Technologies**: Python
@@ -155,9 +141,7 @@ My team of five and I participated in the Google Games Competition in Atlanta wh
 
 I participated in the Freshmen Hackathon which tested problem solving skills using programming.
 
-</div>
-
-<div class="subsection bg1">
+</li><li class="subsection">
 
 ## Shake2Meet
 > **Technologies**: Android (Bluetooth, Firebase), Myo Gesture Control Armband Android SDK
@@ -166,13 +150,13 @@ I participated in the Freshmen Hackathon which tested problem solving skills usi
 
 For our HackGT 2015 project, my team of four designed an Android App that synced with an arm-worn smart band with 3-axis accelerometer sensors. This app would be installed and two or more individuals devices. Based on the accelerometer data and time, it would recognize when two individuals were shaking hands and would automatically exchange their contact information (with prior consent) via a Firebase database.
 
-</div>
+</li>
 
-</div>
+</ul>
 
-<div id="education" class="section">
+<ul id="education" class="section">
 
-<div class="subsection">
+<li class="subsection">
 <details>
 <summary>
 
@@ -182,8 +166,6 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 > ***September 2018 - Present***
 
 </summary>
-
-<div class="subsection bg2">
 
 ### **Courses**
 * Computer Graphics
@@ -197,12 +179,10 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 * Deep Learning for Computer Vision: Seminal Work
 * A Sampler of Histories and Philosophies of Mathematics
 
-</div>
 </details>
 
-</div>
+</li><li class="subsection">
 
-<div class="subsection">
 <details>
 <summary>
 
@@ -217,7 +197,6 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 > Graduated with **Highest Honors**
 
 </summary>
-<div class="subsection bg2">
 
 ### **Fall 2017**
 * Senior Design 2 (*ECE 4012*)
@@ -275,12 +254,9 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 * GT Freshman Seminar (*GT 1000*)
 * Calculus II (*MATH 1502*)
 
-</div>
 </details>
 
-</div>
-
-<div class="subsection">
+</li><li class="subsection">
 
 ## [International School of Kuala Lumpur](https://www.iskl.edu.my)
 
@@ -292,12 +268,13 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 >
 > Received Book Award for Mathematics (given to one student in the whole High School as chosen by a committee from the HS Math Department)
 
-</div>
-</div>
+</li>
 
-<div id="work" class="section">
+</ul>
 
-<div class="subsection">
+<ul id="work" class="section">
+
+<li class="subsection">
 
 ## [Android Development Intern (R&D) at VMware AirWatch](https://www.air-watch.com/)
 > **Technologies**: Android (Device OEM APIs), Stash, JIRA, Bamboo, Confluence, Agile
@@ -308,9 +285,7 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 
 I interned at AirWatch on the Android Agent App Development team. My primary project involved refactoring and restructuring existing code with regards to device application policy control/management/restricition. I learned new team-based technologies such as Stash for codebases, JIRA for issue tracking, Bamboo for build management, and Confluence for documentation.
 
-</div>
-
-<div class="subsection bg1">
+</li><li class="subsection">
 
 ## Teaching Assistant for Data Structures and Algorithms (CS 1332) and Object-Oriented Programming (CS 1331)
 > **Technologies**: Java (1.8, JavaFX, JUnit4)
@@ -321,9 +296,7 @@ I interned at AirWatch on the Android Agent App Development team. My primary pro
 
 I was a TA for the two CS courses. My responsibilities included writing homework assignments, preparing for and conduction weekly recitations, grading homeworks/tests, and holding office hours.
 
-</div>
-
-<div class="subsection">
+</li><li class="subsection">
 
 ## Tutor for Digital Design (ECE 2020) and Programming Hardware/Software Systems (ECE 2035, 2036)
 > **Technologies**: C/C++ (MIPS ISA)
@@ -338,6 +311,6 @@ Tutored multiple ECE courses and aided students with lab assignments and grading
 * C++ STL
 * Digital Design Logic
 
-</div>
+</li>
 
-</div>
+</ul>
