@@ -6,7 +6,7 @@
 
 # Shashank Singh
 
-<div id="personal-status">
+<div>
 
 ### Doing my Master's Thesis in
 ## [Computer Science MSc.](https://inf.ethz.ch/studies/master/master-cs.html)
@@ -16,7 +16,7 @@
 </div>
 </div></div>
 
-<nav>
+<nav id="sections">
   {{ section(name="projects", active=true) }}
   {{ section(name="education") }}
   {{ section(name="work") }}
@@ -24,7 +24,9 @@
 
 <ul id="projects" class="section">
 
-<li class="subsection">
+<h2 class="section-header">Projects</h2>
+
+<li class="subsection resume">
 
 ## [Fission - Physically-Based Ray-Tracing Renderer](https://github.com/sshashank124/fission/)
 > **Technologies**: Rust (GPU Compute, (De)Serialization, Functional Programming, SIMD, Threadpools, Parsers, Simulation), OpenEXR
@@ -37,7 +39,7 @@ The library contains an efficient flattened implementation of a BVH tree (to be 
 
 The entire project is structured to be modular and the code is written in a highly functional manner for easier access. Despite this, the renderer is very performant and compiles down to optimized code for all types of geometric computations.
 
-</li><li class="subsection">
+</li><li class="subsection resume">
 
 ## [AMZ Driverless Racing](http://driverless.amzracing.ch/en/home)
 > **Technologies**: C++ (ROS, Tensorflow, PCL, OpenCV), Python (Tensorflow, OpenCV), C (Atmel AVR32)
@@ -50,7 +52,7 @@ I was a member of AMZ Driverless, ETH's Formula Student Driverless team, for the
 
 My secondary role was the programming of various AVR32 microcontrollers on the car for interfacing with various components such as the Inertial Navigation System (INS), Low Voltage controller (LV), accumulators (AKKU), dashboard (DB), and the CAN interface tying them all together.
 
-</li><li class="subsection">
+</li><li class="subsection resume">
 
 ## [EnerCage Research](https://industry.gatech.edu/technology/enercage-scalable-array-wireless-sensor-modules)
 > **Technologies**: Python (OpenCV2, Tensorflow/Keras, numpy/scikit, pybluez), Java (JavaFX), C/C++ (libbluetooth, pthread, socket), Raspberry Pi, Microsoft Kinect 1 & 2
@@ -117,7 +119,7 @@ Created a web app aimed at faculty and students at my highschool (ISKL) to allow
 
 </li>
 
-# Hackathons / Competitions
+<h2 class="section-divider">Hackathons / Competitions</h2>
 
 <li class="subsection">
 
@@ -156,7 +158,9 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 
 <ul id="education" class="section">
 
-<li class="subsection">
+<h2 class="section-header">Education</h2>
+
+<li class="subsection resume">
 <details>
 <summary>
 
@@ -181,7 +185,7 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 
 </details>
 
-</li><li class="subsection">
+</li><li class="subsection resume">
 
 <details>
 <summary>
@@ -274,7 +278,9 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 
 <ul id="work" class="section">
 
-<li class="subsection">
+<h2 class="section-header">Work</h2>
+
+<li class="subsection resume">
 
 ## [Android Development Intern (R&D) at VMware AirWatch](https://www.air-watch.com/)
 > **Technologies**: Android (Device OEM APIs), Stash, JIRA, Bamboo, Confluence, Agile

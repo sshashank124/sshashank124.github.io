@@ -1,62 +1,62 @@
-$color-bg: white
-$color-fg: black
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap')
 
 body
-  background-color: $color-bg
-  color: $color-fg
-  font-size: 10pt
+  font-family: "EB Garamond", serif;
+  font-size: 11pt
 
-.center
-  text-align: left
+a
+  color: inherit
 
-h1
-  text-align: left
+h1, h2, h3
+  margin: 0
 
-blockquote, p, ul
+p
+  margin: 0.5em 0
+
+blockquote
+  margin: 0 20px
+
+.subsection
   break-inside: avoid
-
-#header
-  width: 30%
-  height: auto
-  position: relative
-  right: 0px
-  float: right
-  margin: 1em
-  align-items: right
-
-  nav
-    margin: 0
-    padding: 0
-    
 
 #home, #sections
   display: none
 
+#header
+  width: auto
+  height: auto
+  position: relative
+  right: 0px
+  float: right
+  align-items: right
+
 #profiles
   .logo-link
     display: block
-
     svg
       width: 1em
-
     &::after
       content: attr(alt)
-      font-size: .6em
-
-#content
-  width: 100%
-  margin: 0
-  padding: 0
-
-#personal-intro
-  display: inline
+      margin: 0.5em
 
 #personal-photo
+  float: left
   width: 120px
+  margin-right: 10px
 
-h3[id^='src']
+.section
+  margin: 10px 0 0 0
+  padding: 0
+
+.section-header
+  text-decoration: underline
+
+.section-divider
+  display: none
+
+.subsection:not(.resume)
   display: none
 
 @page
   size: letter
-  margin: 1cm
+  margin: 1in
