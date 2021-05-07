@@ -8,10 +8,9 @@
 
 <div>
 
-### Doing my Master's Thesis in
-## [Computer Science MSc.](https://inf.ethz.ch/studies/master/master-cs.html)
-### @
-## [ETH Zurich](https://ethz.ch/en/the-eth-zurich.html)
+Seeking full-time employment (work visa required) in *Computer Vision, Graphics, and Software Development*
+
+Preferred starting date: *Sep/Oct 2021*
 
 </div>
 </div></div>
