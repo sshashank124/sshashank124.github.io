@@ -8,18 +8,74 @@
 
 <div>
 
-Seeking full-time employment (work visa required) in *Computer Vision, Graphics, and Software Development*
-
-Preferred starting date: *Sep/Oct 2021*
+Seeking full-time employment (work visa required) as a Software Engineer in the areas of *Computer Vision & Graphics, or Software Architecture*
 
 </div>
 </div></div>
 
 <nav id="sections">
-  {{ section(name="projects", active=true) }}
+  {{ section(name="work", active=true) }}
+  {{ section(name="projects") }}
   {{ section(name="education") }}
-  {{ section(name="work") }}
 </nav>
+
+<ul id="work" class="section">
+
+<h2 class="section-header">Work</h2>
+
+<li class="subsection resume">
+
+## [Software Engineer (Robotics) at Niantic, Inc.](https://nianticlabs.com/about)
+> **Technologies**: C++ (Eigen, Bazel), Python (Numpy), GCP, iOS/Android (Video Encoding), Argo
+>
+> ***Dec 2021 - Present***
+>
+> ***London, UK***
+
+I worked in the Augmented Reality - Mapping division in London to tackle challenges with building an up-to-date 3D map of the world which users can place themselves in precisely. My role covered various tasks such doing research and benchmarking in optimizing the map-building process while minimizing the cost and resources required, as well as improving the robustness and stability of the map-to-localization results to give a better end-user experience.
+
+</li><li class="subsection">
+
+<li class="subsection resume">
+
+## [Android Development Intern (R&D) at VMware AirWatch](https://www.air-watch.com/)
+> **Technologies**: Android (Device OEM APIs), Stash, JIRA, Bamboo, Confluence, Agile
+>
+> ***May 2017 - August 2017***
+>
+> ***Atlanta, US***
+
+I interned at AirWatch on the Android Agent App Development team. My primary project involved refactoring and restructuring existing code with regards to device application policy control/management/restricition. I learned new team-based technologies such as Stash for codebases, JIRA for issue tracking, Bamboo for build management, and Confluence for documentation.
+
+</li><li class="subsection">
+
+## Teaching Assistant for Data Structures and Algorithms (CS 1332) and Object-Oriented Programming (CS 1331)
+> **Technologies**: Java (1.8, JavaFX, JUnit4)
+>
+> ***January 2016 - May 2017***
+>
+> ***Georgia Tech, Atlanta***
+
+I was a TA for the two CS courses. My responsibilities included writing homework assignments, preparing for and conduction weekly recitations, grading homeworks/tests, and holding office hours.
+
+</li><li class="subsection">
+
+## Tutor for Digital Design (ECE 2020) and Programming Hardware/Software Systems (ECE 2035, 2036)
+> **Technologies**: C/C++ (MIPS ISA)
+>
+> ***January 2016 - May 2017***
+>
+> ***Georgia Tech, Atlanta***
+
+Tutored multiple ECE courses and aided students with lab assignments and grading. Course materials included:
+* MIPS ISA
+* C memory management
+* C++ STL
+* Digital Design Logic
+
+</li>
+
+</ul>
 
 <ul id="projects" class="section">
 
@@ -29,8 +85,6 @@ Preferred starting date: *Sep/Oct 2021*
 
 ## [Fission - Physically-Based Ray-Tracing Renderer](https://github.com/sshashank124/fission/)
 > **Technologies**: Rust (GPU Compute, (De)Serialization, Functional Programming, SIMD, Threadpools, Parsers, Simulation), OpenEXR
->
-> ***September 2019 - Present***
 
 I have been developing a physically-based ray-tracer in Rust from scratch. This includes a custom math and graphics library, an object-loading library as well as domain-specific data-structures and algorithms.
 
@@ -166,7 +220,7 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 ## [ETH Zurich](https://ethz.ch/en/the-eth-zurich.html)
 ### ([Computer Science MSc.](https://inf.ethz.ch/studies/master/master-cs.html))
 
-> ***September 2018 - Present***
+> ***September 2018 - August 2021***
 
 </summary>
 
@@ -193,7 +247,6 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 ### ([Computer Engineering BSc.](https://www.ece.gatech.edu/computer-engineering-degree)), Atlanta
 
 > **Minor**: Computer Science  
-> **GPA**: 3.76
 >
 > ***August 2014 - December 2017***
 >
@@ -270,51 +323,6 @@ For our HackGT 2015 project, my team of four designed an Android App that synced
 > ***August 2010 - May 2014***
 >
 > Received Book Award for Mathematics (given to one student in the whole High School as chosen by a committee from the HS Math Department)
-
-</li>
-
-</ul>
-
-<ul id="work" class="section">
-
-<h2 class="section-header">Work</h2>
-
-<li class="subsection resume">
-
-## [Android Development Intern (R&D) at VMware AirWatch](https://www.air-watch.com/)
-> **Technologies**: Android (Device OEM APIs), Stash, JIRA, Bamboo, Confluence, Agile
->
-> ***May 2017 - August 2017***
->
-> ***Atlanta***
-
-I interned at AirWatch on the Android Agent App Development team. My primary project involved refactoring and restructuring existing code with regards to device application policy control/management/restricition. I learned new team-based technologies such as Stash for codebases, JIRA for issue tracking, Bamboo for build management, and Confluence for documentation.
-
-</li><li class="subsection">
-
-## Teaching Assistant for Data Structures and Algorithms (CS 1332) and Object-Oriented Programming (CS 1331)
-> **Technologies**: Java (1.8, JavaFX, JUnit4)
->
-> ***January 2016 - May 2017***
->
-> ***Georgia Tech, Atlanta***
-
-I was a TA for the two CS courses. My responsibilities included writing homework assignments, preparing for and conduction weekly recitations, grading homeworks/tests, and holding office hours.
-
-</li><li class="subsection">
-
-## Tutor for Digital Design (ECE 2020) and Programming Hardware/Software Systems (ECE 2035, 2036)
-> **Technologies**: C/C++ (MIPS ISA)
->
-> ***January 2016 - May 2017***
->
-> ***Georgia Tech, Atlanta***
-
-Tutored multiple ECE courses and aided students with lab assignments and grading. Course materials included:
-* MIPS ISA
-* C memory management
-* C++ STL
-* Digital Design Logic
 
 </li>
 
