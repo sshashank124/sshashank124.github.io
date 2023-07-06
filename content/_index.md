@@ -8,7 +8,7 @@
 
 <div>
 
-Seeking full-time employment (work visa required) as a Software Engineer in the areas of *Computer Vision & Graphics, or Software Architecture*
+Interested in the areas of *Numerical Analysis and Simulation, Computer Vision & Graphics, Functional Programming, and Software Architecture*
 
 </div>
 </div></div>
