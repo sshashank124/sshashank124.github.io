@@ -8,7 +8,7 @@
 
 <div>
 
-Interested in the areas of *Numerical Analysis and Simulation, Computer Vision & Graphics, Functional Programming, and Software Architecture*
+Interested in the areas of *Numerical Analysis & Simulation, Computer Vision & Graphics, Functional Programming, and Software Architecture*
 
 </div>
 </div></div>
