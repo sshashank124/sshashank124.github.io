@@ -1,0 +1,155 @@
+@use "colors";
+@use "common";
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+
+// Global
+
+body {
+    background-color: colors.$bg;
+    color: colors.$fg;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    font-weight: 700;
+    color: colors.$accent;
+    &:hover,
+    &:focus,
+    &:active {
+        color: colors.$accent-dark;
+    }
+}
+
+h1,
+h2,
+h3 {
+    margin: 1em 0.2em;
+}
+
+blockquote {
+    border-left: 2px solid colors.$accent;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    font-size: 1.2em;
+}
+
+// Header
+
+$header-height: 48px;
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: $header-height;
+    overflow: auto;
+    background-color: colors.$bg-dark;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+
+    nav {
+        justify-content: space-between;
+    }
+}
+
+#home {
+    font-size: 1.25em;
+    color: colors.$fg;
+}
+
+#profiles {
+    .logo-link {
+        &:hover,
+        &:focus,
+        &:active {
+            .logo-svg {
+                fill: colors.$accent-dark;
+            }
+        }
+
+        svg {
+            height: 1.2em;
+            margin: 0 0.5em;
+        }
+
+        .logo-svg {
+            fill: colors.$fg;
+        }
+    }
+}
+
+// Content
+
+#content {
+    margin: auto;
+    padding-top: $header-height;
+}
+
+#personal-intro {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    p {
+        font-size: 1.2em;
+    }
+}
+
+#personal-photo {
+    max-width: 100%;
+}
+
+button {
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    padding: 0 2em;
+    background-color: inherit;
+    color: colors.$fg;
+
+    &:hover,
+    &:focus {
+        color: colors.$accent-dark;
+    }
+
+    &.selected {
+        background-color: colors.$bg-light;
+        color: colors.$accent;
+    }
+}
+
+.section {
+    margin: 1em 7%;
+    padding: 1em 1%;
+    background-color: colors.$bg-light;
+}
+
+.subsection {
+    margin: 0.5em 1%;
+    padding: 0.5em 1%;
+
+    &:nth-child(even) {
+        background-color: colors.$bg;
+    }
+}
+
+.entry-info {
+    span {
+        display: block;
+    }
+}
+
+details {
+    summary:hover {
+        background-color: colors.$bg-dark;
+    }
+}

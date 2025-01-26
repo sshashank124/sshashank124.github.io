@@ -1,50 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8"/>
+{% extends "base.html" %} {% block content %}
 
-    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+<div id="personal-intro">
+  <div>
+    <img
+      id="personal-photo"
+      src="images/{{ about.image }}"
+      alt="Personal Photo"
+    />
+    <h1>{{ about.name }}</h1>
+    {{ about.description | safe }}
+  </div>
+</div>
 
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" media="screen" href="screen.css">
-    <link rel="stylesheet" media="print" href="print.css">
+<ul id="work_experience" class="section">
+  <h2 class="section-header">Work Experience</h2>
 
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  </head>
+  {% for entry in about.work_experience %}
+  <li
+    class="subsection{% if entry.exclude_from_resume %} exclude-from-resume{% endif %}"
+  >
+    <h2>
+      {{ entry.title }} at
+      <a href="{{ entry.link | safe }}">{{ entry.organization }}</a>
+    </h2>
+    <blockquote class="entry-info">
+      <span class="entry-skills">{{ entry.skills }}</span>
+      <span class="entry-duration"
+        >{{ entry.start_date | date(format="%b %Y") }} - {% if entry.end_date
+        %}{{ entry.end_date | date(format="%b %Y") }}{% else %}Present{% endif
+        %}</span
+      >
+      <span class="entry-location">{{ entry.location }}</span>
+    </blockquote>
+    {{ entry.description | safe }}
+  </li>
+  {% endfor %}
+</ul>
 
-  <body>
-    <div id="header">
-      <nav>
-        <a id="home" href="#">{{ config.title | upper }}</a>
+<ul id="projects" class="section">
+  <h2 class="section-header">Projects</h2>
 
-        <div id="profiles">
-          <a class="logo-link" href="mailto:{{ config.extra.username }}@gmail.com"
-                               alt="{{ config.extra.username }}@gmail.com">
-            {% include "logos/email.html" %}
-          </a>
-          <a class="logo-link" href="https://stackoverflow.com/users/3337070/{{ config.extra.username }}"
-                               alt="{{ config.extra.username }}">
-            {% include "logos/stackoverflow.html" %}
-          </a>
-          <a class="logo-link" href="https://github.com/{{ config.extra.username }}"
-                               alt="{{ config.extra.username }}">
-            {% include "logos/github.html" %}
-          </a>
-          <a class="logo-link" href="tel:+447449320724"
-                               alt="+44 7449 320724">
-            {% include "logos/phone.html" %}
-          </a>
-        </div>
-      </nav>
-    </div>
+  {% for entry in about.projects %}
+  <li
+    class="subsection{% if entry.exclude_from_resume %} exclude-from-resume{% endif %}"
+  >
+    <h2>
+      <a href="{{ entry.link | safe }}">{{ entry.name }}</a>
+    </h2>
+    <blockquote class="entry-info">
+      <span class="entry-skills">{{ entry.skills }}</span>
+      <span class="entry-duration"
+        >{{ entry.start_date | date(format="%b %Y") }} - {% if entry.end_date
+        %}{{ entry.end_date | date(format="%b %Y") }}{% else %}Present{% endif
+        %}</span
+      >
+    </blockquote>
+    {{ entry.description | safe }}
+  </li>
+  {% endfor %}
+</ul>
 
-    <div id="content">
-      {% block content %}
-      {{ section.content | safe }}
-      {% endblock content %}
-    </div>
+<ul id="education" class="section">
+  <h2 class="section-header">Education</h2>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="/js/scripts.js"></script>
-  </body>
-</html>
+  {% for entry in about.education %}
+  <li
+    class="subsection{% if entry.exclude_from_resume %} exclude-from-resume{% endif %}"
+  >
+    <h2>
+      <a href="{{ entry.link | safe }}">{{ entry.school }}</a>
+    </h2>
+    <h3>({{ entry.degree }})</h3>
+    <blockquote class="entry-info">
+      <span class="entry-tagline">{{ entry.tagline }}</span>
+      <span class="entry-duration"
+        >{{ entry.start_date | date(format="%b %Y") }} - {% if entry.end_date
+        %}{{ entry.end_date | date(format="%b %Y") }}{% else %}Present{% endif
+        %}</span
+      >
+      <span class="entry-location">{{ entry.location }}</span>
+    </blockquote>
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock content %}

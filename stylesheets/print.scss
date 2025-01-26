@@ -1,0 +1,104 @@
+@use "common";
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@page {
+    size: letter;
+    margin: 1in;
+}
+
+body {
+    font-family: "EB Garamond", serif;
+    font-size: 11pt;
+}
+
+a {
+    color: inherit;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+blockquote {
+    margin: 0 20px;
+}
+
+.subsection {
+    break-inside: avoid;
+}
+
+#home {
+    display: none;
+}
+
+#header {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 15px;
+    right: 0px;
+    float: right;
+    align-items: right;
+}
+
+#profiles {
+    .logo-link:not(.exclude-from-resume) {
+        display: block;
+        svg {
+            height: 0.8em;
+        }
+        &::after {
+            content: attr(alt);
+            margin: 0.2em;
+        }
+    }
+}
+
+#personal-photo {
+    display: none;
+}
+
+#personal-intro {
+    p {
+        margin: 0.2em 0;
+    }
+    em {
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+.section {
+    margin: 10px 0 0 0;
+}
+
+.section-header {
+    text-decoration: underline;
+}
+
+.entry-info {
+    .entry-skills,
+    .entry-tagline {
+        display: block;
+    }
+    .entry-location {
+        &::before {
+            content: " | ";
+        }
+    }
+}
+
+.exclude-from-resume {
+    display: none;
+}

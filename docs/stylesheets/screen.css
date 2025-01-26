@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+/* Base colors */
+/* Theme colors */
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  display: inline-block;
+}
+
+#personal-intro {
+  overflow: hidden;
+}
+
+#personal-photo {
+  border-radius: 50%;
+}
+
+.section {
+  list-style-type: none;
+  padding: 0;
+}
+
+body {
+  background-color: #212121;
+  color: #ededed;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  font-weight: 700;
+  color: #2196f3;
+}
+a:hover, a:focus, a:active {
+  color: #0d47a1;
+}
+
+h1,
+h2,
+h3 {
+  margin: 1em 0.2em;
+}
+
+blockquote {
+  border-left: 2px solid #2196f3;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  font-size: 1.2em;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  height: 48px;
+  overflow: auto;
+  background-color: #101010;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+#header nav {
+  justify-content: space-between;
+}
+
+#home {
+  font-size: 1.25em;
+  color: #ededed;
+}
+
+#profiles .logo-link:hover .logo-svg, #profiles .logo-link:focus .logo-svg, #profiles .logo-link:active .logo-svg {
+  fill: #0d47a1;
+}
+#profiles .logo-link svg {
+  height: 1.2em;
+  margin: 0 0.5em;
+}
+#profiles .logo-link .logo-svg {
+  fill: #ededed;
+}
+
+#content {
+  margin: auto;
+  padding-top: 48px;
+}
+
+#personal-intro {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#personal-intro p {
+  font-size: 1.2em;
+}
+
+#personal-photo {
+  max-width: 100%;
+}
+
+button {
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0 2em;
+  background-color: inherit;
+  color: #ededed;
+}
+button:hover, button:focus {
+  color: #0d47a1;
+}
+button.selected {
+  background-color: #323232;
+  color: #2196f3;
+}
+
+.section {
+  margin: 1em 7%;
+  padding: 1em 1%;
+  background-color: #323232;
+}
+
+.subsection {
+  margin: 0.5em 1%;
+  padding: 0.5em 1%;
+}
+.subsection:nth-child(even) {
+  background-color: #212121;
+}
+
+.entry-info span {
+  display: block;
+}
+
+details summary:hover {
+  background-color: #101010;
+}

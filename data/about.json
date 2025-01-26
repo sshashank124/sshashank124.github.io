@@ -1,0 +1,112 @@
+{
+  "name": "Shashank Singh",
+  "image": "me.jpg",
+  "description": "Interested in the areas of *Numerical Analysis & Simulation, Computer Vision & Graphics, Functional Programming, and Software Architecture*",
+  "profiles": [
+    {
+      "name": "website",
+      "text": "sshashank.com",
+      "link": "https://sshashank.com/",
+      "svg": "M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"
+    },
+    {
+      "name": "email",
+      "text": "sshashank124@gmail.com",
+      "link": "mailto:sshashank124@gmail.com",
+      "svg": "M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+    },
+    {
+      "name": "phone",
+      "text": "+44 7449 320724",
+      "link": "tel:+447449320724",
+      "svg": "M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+    },
+    {
+      "name": "linkedin",
+      "text": "sshashank124",
+      "link": "https://www.linkedin.com/in/sshashank124/",
+      "svg": "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+    },
+    {
+      "name": "github",
+      "text": "sshashank124",
+      "link": "https://github.com/sshashank124/",
+      "svg": "M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8z",
+      "exclude_from_resume": true
+    },
+    {
+      "name": "stackoverflow",
+      "text": "sshashank124",
+      "link": "https://stackoverflow.com/users/3337070/sshashank124",
+      "svg": "M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z",
+      "exclude_from_resume": true
+    }
+  ],
+  "work_experience": [
+    {
+      "organization": "Qube Research and Technologies (QRT)",
+      "link": "https://www.qube-rt.com",
+      "title": "Quantitative Technologist",
+      "skills": "C++, Python, C#, Bash, PostgreSQL, Microsoft SQL Server, Linux, Networking, Multithreading",
+      "start_date": "2023-10-16",
+      "location": "London, UK",
+      "description": "I work on the Core tech team where I develop and maintain the central trading platform in terms of developing new functionality, maintaining/supporting the existing infrastructure as well as assisting with any business-related queries."
+    },
+    {
+      "organization": "Niantic, Inc.",
+      "link": "https://nianticlabs.com/about",
+      "title": "Software Engineer (Robotics)",
+      "skills": "C++ (Eigen, Bazel), Python (Numpy), GCP, iOS/Android (Video Encoding), Argo",
+      "start_date": "2021-12-14",
+      "end_date": "2023-09-08",
+      "location": "London, UK",
+      "description": "I worked in the Augmented Reality - Mapping division in London to tackle challenges with building an up-to-date 3D map of the world which users can place themselves in precisely. My role covered various tasks such doing research and benchmarking in optimizing the map-building process while minimizing the cost and resources required, as well as improving the robustness and stability of the map-to-localization results to give a better end-user experience."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Physically-Based Ray-Tracing Renderer",
+      "link": "https://github.com/sshashank124/fission/",
+      "skills": "Vulkan, Rust (GPU Compute, (De)Serialization, Functional Programming, SIMD, Threadpools, Parsers, Simulation), GLSL, OpenEXR",
+      "start_date": "2019-10-28",
+      "end_date": "2024-05-05",
+      "description": "I have been developing a physically-based ray-tracer in Rust from scratch. Initially it was developed for the CPU which was then also expanded for real-time GPU rendering. This includes a custom math and graphics library, an object-loading library as well as domain-specific data-structures and algorithms.\n\nThe library contains an efficient flattened implementation of a BVH tree (to be used as an acceleration structure for complex scenes) as well as cameras, multiple BSDFs, lighting types, shapes, textures and samplers. It includes an implementation of a complete Path Tracer as well as simpler Direct Lighting and Ambient Occlusion shaders.\n\nThe entire project is structured to be modular and the code is written in a highly functional manner for easier access. Despite this, the renderer is very performant and compiles down to optimized code for all types of geometric computations."
+    },
+    {
+      "name": "AMZ Driverless Racing",
+      "link": "http://driverless.amzracing.ch/en/home",
+      "skills": "C++ (ROS, Tensorflow, PCL, OpenCV), Python (Tensorflow, OpenCV), C (Atmel AVR32)",
+      "start_date": "2018-10-02",
+      "end_date": "2019-08-17",
+      "description": "**1st** place at both *Formula Student Germany* and *Formula Student East (Hungary)*\n\nI was a member of AMZ Driverless, ETH's Formula Student Driverless team, for the 2018-2019 season. Being part of the Perception team, my primary role was to process and analyze all incoming information from the two cameras and two LiDARs on the car. My tasks involved the calibration of the various sensors in both the spatial and temporal domain to allow for fusion of the sensors data for combined processing.\n\nMy secondary role was the programming of various AVR32 microcontrollers on the car for interfacing with various components such as the Inertial Navigation System (INS), Low Voltage controller (LV), accumulators (AKKU), dashboard (DB), and the CAN interface tying them all together."
+    }
+  ],
+  "education": [
+    {
+      "school": "ETH Zürich",
+      "link": "https://ethz.ch/en/the-eth-zurich.html",
+      "degree": "Computer Science MSc.",
+      "start_date": "2018-09-16",
+      "end_date": "2021-08-15",
+      "location": "Zurich, Switzerland"
+    },
+    {
+      "school": "Georgia Institute of Technology",
+      "link": "https://www.gatech.edu/about",
+      "degree": "Computer Engineering BSc. with a minor in Computer Science",
+      "tagline": "Graduated with Highest Honors",
+      "start_date": "2014-08-21",
+      "end_date": "2017-12-18",
+      "location": "Atlanta, US"
+    },
+    {
+      "school": "International School of Kuala Lumpur",
+      "link": "https://www.iskl.edu.my",
+      "degree": "IB Diploma",
+      "tagline": "Received Book Award for Mathematics (given to one student in the whole High School as chosen by a committee from the HS Math Department)",
+      "start_date": "2010-08-22",
+      "end_date": "2014-05-06",
+      "location": "Kuala Lumpur, Malaysia"
+    }
+  ]
+}
