@@ -47,10 +47,10 @@
       "organization": "Qube Research and Technologies (QRT)",
       "link": "https://www.qube-rt.com",
       "title": "Quantitative Technologist",
-      "skills": "C++, Python, C#, Bash, PostgreSQL, Microsoft SQL Server, Linux, Networking, Multithreading",
+      "skills": "C++, Python, C#, Bash, PostgreSQL, Linux, Networking, Multithreading",
       "start_date": "2023-10-16",
       "location": "London, UK",
-      "description": "I work on the Core tech team where I develop and maintain the central trading platform in terms of developing new functionality, maintaining/supporting the existing infrastructure as well as assisting with any business-related queries."
+      "description": "I work on the Core tech team where I develop and maintain the central trading platform in terms of developing new functionality, maintaining/supporting the existing infrastructure as well as assisting with any business-related queries.\n\nI also supervised various tasks/projects for some interns and new grads, alongside training/mentoring them and providing reviews and feedback."
     },
     {
       "organization": "Niantic, Inc.",
@@ -106,7 +106,8 @@
       "tagline": "Received Book Award for Mathematics (given to one student in the whole High School as chosen by a committee from the HS Math Department)",
       "start_date": "2010-08-22",
       "end_date": "2014-05-06",
-      "location": "Kuala Lumpur, Malaysia"
+      "location": "Kuala Lumpur, Malaysia",
+      "exclude_from_resume": true
     }
   ]
 }
